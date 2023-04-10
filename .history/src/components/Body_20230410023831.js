@@ -31,7 +31,7 @@ function Body() {
 
     
   return (
-    <div className="p-8 text-black  flex flex-col lg:w-2/3  mt-6 lg:mx-auto ">
+    <div className="p-8 text-black  flex flex-col lg:w-2/3  mt-6 mx-auto ">
         <form className='flex flex-col p-4 gap-4 items-center justify-center text-center border' onSubmit={handleSubmit(onSubmit)}>
             <input className="w-full p-2 border outline-none bg-slate-300 text black text-lg "  placeholder='first name'  {...register('firstName')} />
             <input className="w-full p-2 border outline-none bg-slate-300 text black text-lg "  placeholder='last name' {...register('lastName', { required: true })} />
