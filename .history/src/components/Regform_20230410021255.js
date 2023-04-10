@@ -33,9 +33,9 @@ import { db } from '../firebase.'
     <div className="flex flex-col  p-4 gap-3 my-2  rounded-2xl ">
       <div className="shadow-2xl border p-3 w-[300px] flex flex-col">
         <div className="text-sm">
-          <h1 className="font-bold  font-sanserif text-zinc-500"  > < span className='font-extra-bold text-lg' >First Name:  </span>{firstName}</h1>
-          <h1 className="font-bold font-sanserif text-zinc-500" >< span className='font-extra-bold text-lg'>Last Name:  </span>{lastName}</h1>
-          <h1 className="font-bold font-sanserif text-zinc-500" >< span className='font-extra-bold text-lg'>Age:  </span>{age}</h1>
+          <h1 className="font-bold font-sanserif text-zinc-500"  > < span className='font-extra-bold text-xl' >First Name:  </span>{firstName}</h1>
+          <h1 className="font-bold font-sanserif text-zinc-500" >< span className='font-extra-bold text-xl'>Last Name:  </span>{lastName}</h1>
+          <h1 className="font-bold font-sanserif text-zinc-500" >< span className='font-extra-bold text-xl'>Age:  </span>{age}</h1>
           <div>
           <button className="border cursor-pointer p-1 rounded-lg capitalize bg-red-500 " onClick={() => deleteReg(id)}>delete</button>
           <button className="border cursor-pointer p-1 rounded-lg capitalize  bg-blue-500 "  onClick={() => updateReg(id)}>Edit</button>

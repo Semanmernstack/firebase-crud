@@ -31,7 +31,7 @@ function Body() {
 
     
   return (
-    <div className="p-8 text-black shadow-inner  flex flex-col w-2/3  mt-6 mx-auto ">
+    <div className="p-8 text-black shadow-inner items-center flex flex-col w-2/3  mt-6 mx-auto ">
         <form className='flex flex-col p-4 gap-4 items-center justify-center text-center border' onSubmit={handleSubmit(onSubmit)}>
             <input className="w-full p-2 border outline-none bg-slate-300 text black text-lg "  placeholder='first name'  {...register('firstName')} />
             <input className="w-full p-2 border outline-none bg-slate-300 text black text-lg "  placeholder='last name' {...register('lastName', { required: true })} />
@@ -45,7 +45,7 @@ function Body() {
             <button className='bg-blue-600 hover:scale-90 ease-out cursor-pointer   p-1' type="submit">submit</button>
         </form>
 
-        <div className='p-6 items-start '>
+        <div className='p-6 items-center justify-center '>
             {reg?.map((r) => (  
                 
                 
