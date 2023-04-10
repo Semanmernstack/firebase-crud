@@ -30,8 +30,8 @@ import { db } from '../firebase.'
  
   return (
     
-    <div className="flex flex-col  p-4 gap-3 my-2  rounded-2xl ">
-      <div className="shadow-2xl border p-3 w-[300px] flex flex-col">
+    <div className="flex flex-col  p-4 gap-3 my-2 mx-auto rounded-2xl w-5/12">
+      <div className="shadow-2xl border p-3 w-[500px] flex flex-col">
         <div className=''>
           <h1 className="font-bold font-sanserif text-zinc-500"  > < span className='font-extra-bold text-xl' >First Name:  </span>{firstName}</h1>
           <h1 className="font-bold font-sanserif text-zinc-500" >< span className='font-extra-bold text-xl'>Last Name:  </span>{lastName}</h1>
